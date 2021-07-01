@@ -4,7 +4,7 @@ const app = Vue.createApp({
             product: 'Shoes',
             description: 'this is descriprion',
             image: './assets/images/socks_green.jpg',
-            inStock: true,
+            inStock: false,
         }
     }
 })
