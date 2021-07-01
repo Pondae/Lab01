@@ -12,7 +12,13 @@ const app = Vue.createApp({
                 { id: 2234, color: 'green' },
                 { id: 2235, color: 'blue'}
             ],
-            sizes: ['S', 'M', 'L']
+            sizes: ['S', 'M', 'L'],
+            cart: 0,
+        }
+    },
+    methods:{
+        addToCart() {
+            this.cart += 1
         }
     }
 })
