@@ -22,6 +22,9 @@ const app = Vue.createApp({
         },
         updateImage(variantImage) {
             this.image = variantImage
+        },
+        outOfStock(){
+            this.inStock = !this.inStock
         }
     }
 })
